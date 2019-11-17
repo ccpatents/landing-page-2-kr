@@ -11057,8 +11057,6 @@ header.masthead #scroll-down i {
 #blog {
   margin-top: 0.35rem;
   font-family: 'Gothic+A1', sans-serif;
-  background-image: url("../img/bg.png");
-  background-repeat: repeat;
 }
 
 #blog .post {
@@ -11320,8 +11318,6 @@ header.masthead #scroll-down i {
 
 #contact {
   font-family: 'Gothic+A1', sans-serif;
-  background-image: url("../img/bg.png");
-  background-repeat: repeat;
   padding: 7em 0;
   position: relative;
   padding-top: 0 !important;
