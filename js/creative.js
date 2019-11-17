@@ -3,8 +3,13 @@ let share_event = false;
 let video_event = false;
 let store_event = false;
 
+let ss_selected = true; // '왜 검색식을..?'
+let ps_selected = false; // '특허 검색 왜..?'
+
 (function ($) {
   "use strict"; // Start of use strict
+
+  document.getElementById("why_2").style.display = "none";
 
   let agent = navigator.userAgent.toLowerCase();
 
@@ -161,4 +166,20 @@ async function WebShare() {
   } catch (error) {
     return;
   }
+}
+
+function ss_click() {
+  document.getElementById("why_ss").style.color = "#000000"
+  document.getElementById("why_ps").style.color = "#aaaaaa";
+
+  document.getElementById("why_1").style.display = "block";
+  document.getElementById("why_2").style.display = "none";
+}
+
+function ps_click() {
+  document.getElementById("why_ss").style.color = "#aaaaaa"
+  document.getElementById("why_ps").style.color = "#000000";
+
+  document.getElementById("why_1").style.display = "none";
+  document.getElementById("why_2").style.display = "block";
 }

@@ -1,4 +1,4 @@
-#why, #why2 {
+#why{
 	word-break: keep-all;
 	background-image: url('../img/bg.png');
 	background-repeat: repeat;
@@ -38,6 +38,12 @@
 		}
 	}
 
+	span {
+		&:hover {
+			cursor: pointer;
+		}
+	}
+
 	@include media-breakpoint-down(lg) {
 		p {
 			font-size: .9rem;
@@ -53,8 +59,4 @@
 			font-size: 1.0rem;
 		}
 	}
-}
-
-#why2 {
-	border-top: 0.2rem dashed #aaa;
 }
