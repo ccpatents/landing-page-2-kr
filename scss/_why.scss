@@ -1,5 +1,7 @@
 #why, #why2 {
 	word-break: keep-all;
+	background-image: url('../img/bg.png');
+	background-repeat: repeat;
 
 	b {
 		color: $dark;
@@ -51,4 +53,8 @@
 			font-size: 1.0rem;
 		}
 	}
+}
+
+#why2 {
+	border-top: 0.2rem dashed #aaa;
 }
