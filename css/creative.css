@@ -10845,37 +10845,37 @@ header.masthead #scroll-down i {
   }
 }
 
-#why {
+#why, #why2 {
   word-break: keep-all;
 }
 
-#why b {
+#why b, #why2 b {
   color: #555555;
   background-color: #ffd300;
   font-weight: bold;
   border-radius: 2px;
 }
 
-#why b1 {
+#why b1, #why2 b1 {
   color: #fff;
   background-color: rgba(0, 16, 255, 0.75);
   font-weight: bold;
   border-radius: 2px;
 }
 
-#why b2 {
+#why b2, #why2 b2 {
   color: #fff;
   background-color: rgba(255, 16, 0, 0.75);
   font-weight: bold;
   border-radius: 2px;
 }
 
-#why a {
+#why a, #why2 a {
   color: #555555;
   border-bottom: 0.2rem solid #ff7f00;
 }
 
-#why a:hover {
+#why a:hover, #why2 a:hover {
   -webkit-transition: 0.15s;
   transition: 0.15s;
   color: #fff;
@@ -10886,23 +10886,23 @@ header.masthead #scroll-down i {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  #why a:hover {
+  #why a:hover, #why2 a:hover {
     -webkit-transition: none;
     transition: none;
   }
 }
 
 @media (max-width: 1199.98px) {
-  #why p {
+  #why p, #why2 p {
     font-size: .9rem;
   }
 }
 
 @media (max-width: 991.98px) {
-  #why img {
+  #why img, #why2 img {
     width: 65%;
   }
-  #why p {
+  #why p, #why2 p {
     font-size: 1.0rem;
   }
 }
