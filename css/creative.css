@@ -10856,17 +10856,40 @@ header.masthead #scroll-down i {
   border-radius: 2px;
 }
 
+#why b1 {
+  color: #fff;
+  background-color: rgba(0, 16, 255, 0.75);
+  font-weight: bold;
+  border-radius: 2px;
+}
+
+#why b2 {
+  color: #fff;
+  background-color: rgba(255, 16, 0, 0.75);
+  font-weight: bold;
+  border-radius: 2px;
+}
+
 #why a {
   color: #555555;
   border-bottom: 0.2rem solid #ff7f00;
 }
 
 #why a:hover {
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
   color: #fff;
   text-decoration: none;
   font-weight: 600;
   background-color: #ff7f00;
   border-radius: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #why a:hover {
+    -webkit-transition: none;
+    transition: none;
+  }
 }
 
 @media (max-width: 1199.98px) {
@@ -10901,21 +10924,21 @@ header.masthead #scroll-down i {
 
 #features b1 {
   color: #555555;
-  background-color: #FFA024;
+  background-color: rgba(255, 160, 36, 0.75);
   font-weight: bold;
   border-radius: 2px;
 }
 
 #features b2 {
   color: #ffffff;
-  background-color: #007FFF;
+  background-color: rgba(0, 127, 255, 0.75);
   font-weight: bold;
   border-radius: 2px;
 }
 
 #features b3 {
   color: #ffffff;
-  background-color: #00CC00;
+  background-color: rgba(0, 204, 0, 0.75);
   font-weight: bold;
   border-radius: 2px;
 }
