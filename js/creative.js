@@ -109,7 +109,7 @@ let store_event = false;
   $('.popup-img').popupimg();
 
   //document.querySelector('#share').addEventListener('click', WebShare);
-  document.getElementById('share').onclick = function () {
+  /*document.getElementById('share').onclick = function () {
     if(share_event === false) {
       gtag('event', 'share', {
         'event_category': 'button'
@@ -118,7 +118,7 @@ let store_event = false;
     }
     
     WebShare();
-  }
+  }*/
 
   /*document.getElementById('store').onclick = function () {
     let gtag_ignore = true;
