@@ -12,7 +12,7 @@ let store_event = false;
     document.getElementById("ie_warn").style.display = 'block';
   }
 
-  /*let filter = "win32|win64";
+  let filter = "win32|win64";
   if (navigator.platform) {
     if (filter.indexOf(navigator.platform.toLowerCase()) < 0) {
       //mobile
@@ -22,7 +22,7 @@ let store_event = false;
 
       document.getElementById("store-button").style.display = "block";
     }
-  }*/
+  }
 
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
@@ -109,7 +109,7 @@ let store_event = false;
   $('.popup-img').popupimg();
 
   //document.querySelector('#share').addEventListener('click', WebShare);
-  /*document.getElementById('share').onclick = function () {
+  document.getElementById('share').onclick = function () {
     if(share_event === false) {
       gtag('event', 'share', {
         'event_category': 'button'
@@ -118,9 +118,9 @@ let store_event = false;
     }
     
     WebShare();
-  }*/
+  }
 
-  /*document.getElementById('store').onclick = function () {
+  document.getElementById('store').onclick = function () {
     let gtag_ignore = true;
 
     if(agent.indexOf("windows nt 10.0")!= -1) {
@@ -134,7 +134,7 @@ let store_event = false;
         'event_category': 'button'
       });
     }
-  }*/
+  }
 
   setTimeout(function () {
     gtag('event', 'timeout_45s', {
