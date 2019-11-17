@@ -1,0 +1,56 @@
+#install {
+    overflow: hidden;
+    font-family: 'Gothic+A1', sans-serif;
+    color: #454545;
+    word-break: keep-all;
+
+    h2, h3, h4 {
+        color: black;
+    }
+
+    b {
+        color: $dark;
+		background-color: $gold;
+		font-weight: bold;
+		border-radius: 2px;
+    }
+
+    img {
+        -webkit-transform: scale(1.0);
+        -moz-transform: scale(1.0);
+        -o-transform: scale(1.0);
+        transform: scale(1.0);
+        z-index: -1;
+        @include transition(.85s);
+    }
+
+    .step-1-img {
+        overflow: hidden;
+
+        &:hover,
+        &:focus {
+            img {
+                -webkit-transform: scale(2.3) translateX(65px) translateY(-10px);
+                -moz-transform: scale(2.3) translateX(65px) translateY(-10px);
+                -o-transform: scale(2.3) translateX(65px) translateY(-10px);
+                transform: scale(2.3) translateX(65px) translateY(-10px);
+            }
+        }
+    }
+
+    .step-2-img {
+        overflow: hidden;
+        background-color: #ececec;
+
+        &:hover,
+        &:focus {
+            img {
+                -webkit-transform: scale(2.3) translateX(-100px) translateY(75px);
+                -moz-transform: scale(2.3) translateX(-100px) translateY(75);
+                -o-transform: scale(2.3) translateX(-100px) translateY(75);
+                transform: scale(2.3) translateX(-100px) translateY(75);
+            }
+
+        }
+    }
+}

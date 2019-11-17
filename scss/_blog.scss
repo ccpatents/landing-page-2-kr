@@ -1,0 +1,200 @@
+#blog {
+    margin-top: 0.35rem;
+    font-family: 'Gothic+A1', sans-serif;
+
+    .post {
+        position: relative;
+        width: 100%;
+        display: block;
+        overflow: hidden;
+        z-index: 0;
+        margin-bottom: 50px;
+
+        .img {
+            position: relative;
+            overflow: hidden;
+            border: 2px dashed rgba(231, 231, 231, 0.7);
+            @include border-radius(0px);
+            -webkit-box-shadow: 0px 42px 29px -31px rgba(0, 0, 0, 0.05);
+            -moz-box-shadow: 0px 42px 29px -31px rgba(0, 0, 0, 0.05);
+            box-shadow: 0px 42px 29px -31px rgba(0, 0, 0, 0.05);
+
+            &:hover,
+            &:focus {
+                border: 2px dashed rgba(240, 239, 239, 0.7);
+            }
+        }
+
+        img {
+            -webkit-transform: scale(1.0);
+            -moz-transform: scale(1.0);
+            -o-transform: scale(1.0);
+            transform: scale(1.0);
+            z-index: -1;
+            @include transition(.6s);
+        }
+
+        .text {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            padding: 1em 0;
+            background: rgba(255, 255, 255, .9);
+            background: $secondary;
+            opacity: .7;
+            .price {
+                background: $primary;
+            }
+
+            @include transition(.6s);
+
+            span {
+                font-weight: 500;
+                font-size: 13px;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                color: rgba(255, 255, 255, .8);
+            }
+
+            a {
+                color: $white;
+
+                &:hover,
+                &:focus {
+                    text-decoration: none;
+                }
+            }
+
+            h3 {
+                color: $white;
+                font-size: 20px;
+                font-weight: 600;
+                margin-bottom: 0;
+            }
+
+            div {
+                color: $white;
+                text-align: right;
+            }
+        }
+
+        &:hover,
+        &:focus {
+            .icon {
+                bottom: 50%;
+                opacity: 1;
+            }
+
+            img {
+                -webkit-transform: scale(2.5);
+                -moz-transform: scale(2.5);
+                -o-transform: scale(2.5);
+                transform: scale(2.5);
+            }
+
+        }
+    }
+
+    .owl-carousel {
+        margin: 0;
+    }
+
+    .owl-carousel .owl-stage-outer {
+        padding-top: 0;
+        padding-bottom: 0;
+        position: relative;
+    }
+
+    .owl-nav {
+        position: absolute;
+        bottom: 75% !important;
+        left: 0;
+        right: 0;
+        // max-width: 1200px;
+        margin: 0 auto;
+
+        @include media-breakpoint-down(md) {
+            display: none;
+        }
+
+        .owl-prev,
+        .owl-next {
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            background: transparent !important;
+            @include transition(.7s);
+
+            span {
+                &:before {
+                    font-size: 24px;
+                    margin-top: 7px;
+                    color: $black;
+                }
+            }
+
+            opacity: 1;
+        }
+
+        .owl-prev {
+            top: 0 !important;
+            left: 0px !important;
+
+            @include media-breakpoint-up(lg) {
+                left: -60px !important;
+            }
+
+            &:hover,
+            &:focus {
+                background: transparent !important;
+                outline: none !important;
+
+                span {
+                    &:before {
+                        // margin-top: 7px;
+                        color: $white;
+                    }
+                }
+            }
+        }
+
+        .owl-next {
+            top: 0 !important;
+            right: 0px !important;
+
+            @include media-breakpoint-up(lg) {
+                right: -60px !important;
+            }
+
+            &:hover,
+            &:focus {
+                background: transparent !important;
+                outline: none !important;
+
+                span {
+                    &:before {
+                        // margin-top: 7px;
+                        color: $primary;
+                    }
+                }
+            }
+        }
+    }
+
+    .owl-dots {
+        text-align: center;
+
+        .owl-dot {
+            width: 10px;
+            height: 10px;
+            margin: 5px;
+            border-radius: 50%;
+            background: rgba(0, 0, 0, .1);
+
+            &.active {
+                background: $secondary;
+            }
+        }
+    }
+}

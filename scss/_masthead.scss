@@ -1,0 +1,84 @@
+// Styling for the masthead
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - #{$navbar-height});
+  // replace the masthead.jpg image in the /img directory to change the image
+  // if the image name change, make sure to update the url path below!
+  background: linear-gradient(to bottom, #{fade-out($secondary, .1)} 0%, #{fade-out($secondary, .5)} 100%),
+  url('../img/bg-masthead2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+
+  b {
+    color: $dark;
+		background-color: $gold;
+    font-weight: bold;
+    border-radius: 2px;
+    padding: 3px 4px 4px 3px;
+    opacity: 0.8;
+  }
+
+  p {
+    font-size: 0.8rem;
+    font-family: 'Gothic+A1', sans-serif;
+  }
+  h1 {
+    font-size: 2.25rem;
+  }
+
+  #scroll-down {
+    background: none;
+    color: #fff;
+
+    &:hover {
+      text-decoration: none;
+      color: $primary;
+    }
+
+    i {
+      font-size: 18px;
+    }
+  }
+
+  @include media-breakpoint-down(sm) {
+    padding-top: 6.5rem !important;
+
+    p {
+      font-size: 1.1rem;
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: $navbar-height;
+    padding-bottom: 0;
+
+    p {
+      font-size: 1.2rem;
+    }
+    h1 {
+      font-size: 3rem;
+    }
+
+    span {
+      //font-size: 0.85rem;
+    }
+  }
+
+  @include media-breakpoint-up(xl) {
+    h1 {
+      font-size: 3.5rem;
+    }
+
+    p {
+      font-size: 1.3rem;
+    }
+
+    span {
+      font-size: 1.2rem;
+    }
+  }
+}

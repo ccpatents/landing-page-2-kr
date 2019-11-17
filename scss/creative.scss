@@ -1,0 +1,15 @@
+// Import custom variables (overrides Bootstrap default variables)
+@import "./_variables.scss";
+
+// Import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+// Import custom styles
+@import "./_global.scss";
+@import "./_navbar.scss";
+@import "./_masthead.scss";
+@import "./_why.scss";
+@import "./_features.scss";
+@import "./_blog.scss";
+@import "./_install.scss";
+@import "./_contact.scss";

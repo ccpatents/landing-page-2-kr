@@ -1,0 +1,39 @@
+#why {
+	word-break: keep-all;
+
+	b {
+		color: $dark;
+		background-color: $gold;
+		font-weight: bold;
+		border-radius: 2px;
+	}
+
+	a {
+		color: $dark;
+		border-bottom: .2rem solid $orange;
+
+		&:hover {
+			color: #fff;
+			text-decoration: none;
+			font-weight: 600;
+			background-color: $orange;
+			border-radius: 2px;
+		}
+	}
+
+	@include media-breakpoint-down(lg) {
+		p {
+			font-size: .9rem;
+		}
+	}
+
+	@include media-breakpoint-down(md) {
+		img {
+			width: 65%;
+		}
+
+		p {
+			font-size: 1.0rem;
+		}
+	}
+}
