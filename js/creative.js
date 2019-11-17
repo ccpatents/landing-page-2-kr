@@ -115,26 +115,26 @@ let ps_selected = false; // '특허 검색 왜..?'
 
   //document.querySelector('#share').addEventListener('click', WebShare);
   document.getElementById('share').onclick = function () {
-    if(share_event === false) {
+    if (share_event === false) {
       gtag('event', 'share', {
         'event_category': 'button'
       });
       share_event = true;
     }
-    
+
     WebShare();
   }
 
   document.getElementById('store').onclick = function () {
     let gtag_ignore = true;
 
-    if(agent.indexOf("windows nt 10.0")!= -1) {
+    if (agent.indexOf("windows nt 10.0") != -1) {
       gtag_ignore = false;
     } else {
       alert("윈도우10에서만 지원됩니다.");
     }
 
-    if(store_event === false && gtag_ignore === false) {
+    if (store_event === false && gtag_ignore === false) {
       gtag('event', 'click_store', {
         'event_category': 'button'
       });
@@ -174,6 +174,7 @@ function ss_click() {
 
   document.getElementById("why_1").style.display = "block";
   document.getElementById("why_2").style.display = "none";
+  $('iframe').attr('src', $('iframe').attr('src'));
 }
 
 function ps_click() {
