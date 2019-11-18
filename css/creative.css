@@ -10845,39 +10845,39 @@ header.masthead #scroll-down i {
   }
 }
 
-#why {
+#whyhow {
   word-break: keep-all;
   background-image: url("../img/bg.png");
   background-repeat: repeat;
 }
 
-#why b {
+#whyhow b {
   color: #555555;
   background-color: #ffd300;
   font-weight: bold;
   border-radius: 2px;
 }
 
-#why b1 {
+#whyhow b1 {
   color: #fff;
   background-color: rgba(0, 16, 255, 0.75);
   font-weight: bold;
   border-radius: 2px;
 }
 
-#why b2 {
+#whyhow b2 {
   color: #fff;
   background-color: rgba(255, 16, 0, 0.75);
   font-weight: bold;
   border-radius: 2px;
 }
 
-#why a {
+#whyhow a {
   color: #555555;
   border-bottom: 0.2rem solid #ff7f00;
 }
 
-#why a:hover {
+#whyhow a:hover {
   -webkit-transition: 0.15s;
   transition: 0.15s;
   color: #fff;
@@ -10888,33 +10888,20 @@ header.masthead #scroll-down i {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  #why a:hover {
+  #whyhow a:hover {
     -webkit-transition: none;
     transition: none;
   }
 }
 
-#why span:hover {
+#whyhow span:hover {
   cursor: pointer;
-}
-
-@media (max-width: 1199.98px) {
-  #why p {
-    font-size: .9rem;
-  }
-}
-
-@media (max-width: 991.98px) {
-  #why img {
-    width: 65%;
-  }
-  #why p {
-    font-size: 1.0rem;
-  }
 }
 
 #features {
   word-break: keep-all;
+  background-image: url("../img/bg.png");
+  background-repeat: repeat;
 }
 
 #features .popup-img:hover, #features .popup-img:focus {
@@ -11269,6 +11256,8 @@ header.masthead #scroll-down i {
   font-family: 'Gothic+A1', sans-serif;
   color: #454545;
   word-break: keep-all;
+  background-image: url("../img/bg.png");
+  background-repeat: repeat;
 }
 
 #install h2, #install h3, #install h4 {
@@ -11318,6 +11307,8 @@ header.masthead #scroll-down i {
 
 #contact {
   font-family: 'Gothic+A1', sans-serif;
+  background-image: url("../img/bg.png");
+  background-repeat: repeat;
   padding: 7em 0;
   position: relative;
   padding-top: 0 !important;

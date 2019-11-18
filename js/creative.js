@@ -9,8 +9,6 @@ let ps_selected = false; // '특허 검색 왜..?'
 (function ($) {
   "use strict"; // Start of use strict
 
-  document.getElementById("why_2").style.display = "none";
-
   let agent = navigator.userAgent.toLowerCase();
 
   if ((navigator.appName == 'Netscape' && navigator.userAgent.search('Trident') != -1) || (agent.indexOf("msie") != -1)) {

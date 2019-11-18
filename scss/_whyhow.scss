@@ -1,4 +1,4 @@
-#why{
+#whyhow{
 	word-break: keep-all;
 	background-image: url('../img/bg.png');
 	background-repeat: repeat;
@@ -45,18 +45,8 @@
 	}
 
 	@include media-breakpoint-down(lg) {
-		p {
-			font-size: .9rem;
-		}
 	}
 
 	@include media-breakpoint-down(md) {
-		img {
-			width: 65%;
-		}
-
-		p {
-			font-size: 1.0rem;
-		}
 	}
 }
