@@ -10847,7 +10847,7 @@ header.masthead #scroll-down i {
 
 #whyhow {
   word-break: keep-all;
-  background-image: url("../img/bg.png");
+  background-image: url("https://1.bp.blogspot.com/-VHB4iAs11A4/XdKECk5GCkI/AAAAAAAAHMA/Bw5IYcni3fU59IKHI7x6ssnykqTj8y33ACLcBGAsYHQ/s1600/bg.png");
   background-repeat: repeat;
 }
 
@@ -10870,6 +10870,14 @@ header.masthead #scroll-down i {
   background-color: rgba(255, 16, 0, 0.75);
   font-weight: bold;
   border-radius: 2px;
+}
+
+#whyhow bo {
+  color: #ff7f00;
+}
+
+#whyhow bb {
+  font-size: 1.5rem;
 }
 
 #whyhow a {
@@ -10898,9 +10906,21 @@ header.masthead #scroll-down i {
   cursor: pointer;
 }
 
+@media (max-width: 1199.98px) {
+  #whyhow {
+    font-size: .85rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  #whyhow {
+    font-size: 1.05rem;
+  }
+}
+
 #features {
   word-break: keep-all;
-  background-image: url("../img/bg.png");
+  background-image: url("https://1.bp.blogspot.com/-VHB4iAs11A4/XdKECk5GCkI/AAAAAAAAHMA/Bw5IYcni3fU59IKHI7x6ssnykqTj8y33ACLcBGAsYHQ/s1600/bg.png");
   background-repeat: repeat;
 }
 
@@ -11256,7 +11276,7 @@ header.masthead #scroll-down i {
   font-family: 'Gothic+A1', sans-serif;
   color: #454545;
   word-break: keep-all;
-  background-image: url("../img/bg.png");
+  background-image: url("https://1.bp.blogspot.com/-VHB4iAs11A4/XdKECk5GCkI/AAAAAAAAHMA/Bw5IYcni3fU59IKHI7x6ssnykqTj8y33ACLcBGAsYHQ/s1600/bg.png");
   background-repeat: repeat;
 }
 
@@ -11271,43 +11291,38 @@ header.masthead #scroll-down i {
   border-radius: 2px;
 }
 
-#install img {
-  -webkit-transform: scale(1);
-  transform: scale(1);
-  z-index: -1;
+#install #store_img {
   -webkit-transition: 0.85s;
   transition: 0.85s;
 }
 
 @media (prefers-reduced-motion: reduce) {
-  #install img {
+  #install #store_img {
     -webkit-transition: none;
     transition: none;
   }
 }
 
-#install .step-1-img {
-  overflow: hidden;
+#install #store_img:hover {
+  content: url("../img/store2.png");
+  cursor: pointer;
 }
 
-#install .step-1-img:hover img, #install .step-1-img:focus img {
-  -webkit-transform: scale(2.3) translateX(65px) translateY(-10px);
-  transform: scale(2.3) translateX(65px) translateY(-10px);
+@media (max-width: 1199.98px) {
+  #install {
+    font-size: .85rem;
+  }
 }
 
-#install .step-2-img {
-  overflow: hidden;
-  background-color: #ececec;
-}
-
-#install .step-2-img:hover img, #install .step-2-img:focus img {
-  -webkit-transform: scale(2.3) translateX(-100px) translateY(75px);
-  transform: scale(2.3) translateX(-100px) translateY(75);
+@media (max-width: 991.98px) {
+  #install {
+    font-size: 1.05rem;
+  }
 }
 
 #contact {
   font-family: 'Gothic+A1', sans-serif;
-  background-image: url("../img/bg.png");
+  background-image: url("https://1.bp.blogspot.com/-VHB4iAs11A4/XdKECk5GCkI/AAAAAAAAHMA/Bw5IYcni3fU59IKHI7x6ssnykqTj8y33ACLcBGAsYHQ/s1600/bg.png");
   background-repeat: repeat;
   padding: 7em 0;
   position: relative;

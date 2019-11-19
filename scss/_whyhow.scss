@@ -24,6 +24,14 @@
 		border-radius: 2px;
 	}
 
+	bo {
+		color: $orange;
+	}
+
+	bb {
+		font-size: 1.5rem;
+	}
+
 	a {
 		color: $dark;
 		border-bottom: .2rem solid $orange;
@@ -44,9 +52,13 @@
 		}
 	}
 
+
+
 	@include media-breakpoint-down(lg) {
+		font-size: .85rem;
 	}
 
 	@include media-breakpoint-down(md) {
+		font-size: 1.05rem;
 	}
 }

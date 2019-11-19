@@ -18,42 +18,19 @@
 		border-radius: 2px;
     }
 
-    img {
-        -webkit-transform: scale(1.0);
-        -moz-transform: scale(1.0);
-        -o-transform: scale(1.0);
-        transform: scale(1.0);
-        z-index: -1;
+    #store_img {
         @include transition(.85s);
-    }
-
-    .step-1-img {
-        overflow: hidden;
-
-        &:hover,
-        &:focus {
-            img {
-                -webkit-transform: scale(2.3) translateX(65px) translateY(-10px);
-                -moz-transform: scale(2.3) translateX(65px) translateY(-10px);
-                -o-transform: scale(2.3) translateX(65px) translateY(-10px);
-                transform: scale(2.3) translateX(65px) translateY(-10px);
-            }
+        &:hover {
+            content: url('../img/store2.png');
+            cursor: pointer;
         }
     }
 
-    .step-2-img {
-        overflow: hidden;
-        background-color: #ececec;
+    @include media-breakpoint-down(lg) {
+        font-size: .85rem;
+	}
 
-        &:hover,
-        &:focus {
-            img {
-                -webkit-transform: scale(2.3) translateX(-100px) translateY(75px);
-                -moz-transform: scale(2.3) translateX(-100px) translateY(75);
-                -o-transform: scale(2.3) translateX(-100px) translateY(75);
-                transform: scale(2.3) translateX(-100px) translateY(75);
-            }
-
-        }
-    }
+	@include media-breakpoint-down(md) {
+		font-size: 1.05rem;
+	}
 }
