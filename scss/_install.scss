@@ -18,12 +18,11 @@
 		border-radius: 2px;
     }
 
-    #store_img {
-        @include transition(.85s);
-        &:hover {
-            content: url('../img/store2.png');
-            cursor: pointer;
-        }
+    b1{
+        color: #fff;
+		background-color: rgba(255, 16, 0, 0.75);
+		font-weight: bold;
+		border-radius: 2px;
     }
 
     @include media-breakpoint-down(lg) {
