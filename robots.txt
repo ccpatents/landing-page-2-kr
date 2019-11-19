@@ -3,4 +3,4 @@ Allow: /
 Disallow: /admin/
 Disallow: /private/
 Disallow: /*.pdf$
-sitemap: https://www.ccpatents/sitemap.xml
+sitemap: https://kr.ccpatents.net/sitemap.xml
