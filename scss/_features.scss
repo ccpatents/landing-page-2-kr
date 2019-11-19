@@ -40,13 +40,13 @@
 	}
 
 	.nav-link-wrap {
-		background: linear-gradient(145deg, #{fade-out($secondary, .1)} 0%, #{fade-out($secondary, .5)} 100%);
+		background: linear-gradient(to bottom, #{fade-out($secondary, .15)} 0%, #{fade-out($secondary, .3)} 100%), url('../img/features/bg.jpg');
 
 		// @include gradient-background();
 		@include media-breakpoint-up(md) {
 			padding-top: 3rem !important;
 			padding-bottom: 3rem !important;
-			margin-bottom: -60px;
+			margin-bottom: -50px;
 			z-index: 1;
 			opacity: .5;
 		}
@@ -54,7 +54,6 @@
 		@include media-breakpoint-down(sm) {
 			padding-top: 0.65rem !important;
 			padding-bottom: 0.65rem !important;
-			background: $secondary;
 			margin-top: 30px;
 			opacity: .5;
 		}

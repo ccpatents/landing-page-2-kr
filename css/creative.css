@@ -10769,8 +10769,8 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(85, 85, 85, 0.9)), to(rgba(85, 85, 85, 0.5))), url("https://1.bp.blogspot.com/-QscaGcMEG-0/XdEuuCnMCbI/AAAAAAAAHK4/kkQOpzi7A6MBxZdok3bxG2PjK_8VqyqLwCLcBGAsYHQ/s1600/bg-masthead2.jpg");
-  background: linear-gradient(to bottom, rgba(85, 85, 85, 0.9) 0%, rgba(85, 85, 85, 0.5) 100%), url("https://1.bp.blogspot.com/-QscaGcMEG-0/XdEuuCnMCbI/AAAAAAAAHK4/kkQOpzi7A6MBxZdok3bxG2PjK_8VqyqLwCLcBGAsYHQ/s1600/bg-masthead2.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(85, 85, 85, 0.9)), to(rgba(85, 85, 85, 0.3))), url("https://1.bp.blogspot.com/-QscaGcMEG-0/XdEuuCnMCbI/AAAAAAAAHK4/kkQOpzi7A6MBxZdok3bxG2PjK_8VqyqLwCLcBGAsYHQ/s1600/bg-masthead2.jpg");
+  background: linear-gradient(to bottom, rgba(85, 85, 85, 0.9) 0%, rgba(85, 85, 85, 0.3) 100%), url("https://1.bp.blogspot.com/-QscaGcMEG-0/XdEuuCnMCbI/AAAAAAAAHK4/kkQOpzi7A6MBxZdok3bxG2PjK_8VqyqLwCLcBGAsYHQ/s1600/bg-masthead2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10957,14 +10957,15 @@ header.masthead #scroll-down i {
 }
 
 #features .nav-link-wrap {
-  background: linear-gradient(145deg, rgba(85, 85, 85, 0.9) 0%, rgba(85, 85, 85, 0.5) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(85, 85, 85, 0.85)), to(rgba(85, 85, 85, 0.7))), url("../img/features/bg.jpg");
+  background: linear-gradient(to bottom, rgba(85, 85, 85, 0.85) 0%, rgba(85, 85, 85, 0.7) 100%), url("../img/features/bg.jpg");
 }
 
 @media (min-width: 768px) {
   #features .nav-link-wrap {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
-    margin-bottom: -60px;
+    margin-bottom: -50px;
     z-index: 1;
     opacity: .5;
   }
@@ -10974,7 +10975,6 @@ header.masthead #scroll-down i {
   #features .nav-link-wrap {
     padding-top: 0.65rem !important;
     padding-bottom: 0.65rem !important;
-    background: #555555;
     margin-top: 30px;
     opacity: .5;
   }
