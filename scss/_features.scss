@@ -52,6 +52,7 @@
 		}
 
 		@include media-breakpoint-down(sm) {
+			background: linear-gradient(to bottom, #{fade-out($secondary, .05)} 0%, #{fade-out($secondary, .2)} 100%), url('../img/features/bg.jpg');
 			padding-top: 0.65rem !important;
 			padding-bottom: 0.65rem !important;
 			margin-top: 30px;
