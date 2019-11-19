@@ -20,10 +20,10 @@ let ps_selected = false; // '특허 검색 왜..?'
     if (filter.indexOf(navigator.platform.toLowerCase()) < 0) {
       //mobile
       document.getElementById("share-button").style.display = "block";
+      document.getElementById("store-button").style.display = "none";
     } else {
       //pc 
-
-      document.getElementById("store-button").style.display = "block";
+      document.getElementById("download-button").style.display = "block";
     }
   }
 
