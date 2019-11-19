@@ -40,7 +40,7 @@
 	}
 
 	.nav-link-wrap {
-		background: linear-gradient(to bottom, #{fade-out($secondary, .15)} 0%, #{fade-out($secondary, .3)} 100%), url('../img/features/bg.jpg');
+		background: linear-gradient(to bottom, #{fade-out($secondary, .15)} 0%, #{fade-out($secondary, .3)} 100%), url('https://1.bp.blogspot.com/-uLCJWHPeowQ/XdPsNwMYJ1I/AAAAAAAAHMo/_49deqqtdmch-wsdOWhgN6gG5ZD3tff_gCLcBGAsYHQ/s1600/bg.jpg');
 
 		// @include gradient-background();
 		@include media-breakpoint-up(md) {
@@ -52,7 +52,7 @@
 		}
 
 		@include media-breakpoint-down(sm) {
-			background: linear-gradient(to bottom, #{fade-out($secondary, .05)} 0%, #{fade-out($secondary, .2)} 100%), url('../img/features/bg.jpg');
+			background: linear-gradient(to bottom, #{fade-out($secondary, .05)} 0%, #{fade-out($secondary, .2)} 100%), url('https://1.bp.blogspot.com/-uLCJWHPeowQ/XdPsNwMYJ1I/AAAAAAAAHMo/_49deqqtdmch-wsdOWhgN6gG5ZD3tff_gCLcBGAsYHQ/s1600/bg.jpg');
 			padding-top: 0.65rem !important;
 			padding-bottom: 0.65rem !important;
 			margin-top: 30px;
