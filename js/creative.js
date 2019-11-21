@@ -11,10 +11,6 @@ let ps_selected = false; // '특허 검색 왜..?'
 
   let agent = navigator.userAgent.toLowerCase();
 
-  if ((navigator.appName == 'Netscape' && navigator.userAgent.search('Trident') != -1) || (agent.indexOf("msie") != -1)) {
-    document.getElementById("ie_warn").style.display = 'block';
-  }
-
   let filter = "win32|win64";
   if (navigator.platform) {
     if (filter.indexOf(navigator.platform.toLowerCase()) < 0) {
