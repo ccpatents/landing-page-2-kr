@@ -11,9 +11,21 @@ header.masthead {
   background-attachment: scroll;
   background-size: cover;
 
+  .gradtext {
+    background: #ffa755;
+    background: -webkit-linear-gradient(left, #f79234, #ffdede);
+    background: -moz-linear-gradient(right, #f79234, #ffdede);
+    background: -o-linear-gradient(right, #f79234, #ffdede);
+    background: linear-gradient(to right, #f79234, #ffdede);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 600;
+  }
+
   b {
     color: $dark;
-		background-color: $gold;
+    background-color: $gold;
     font-weight: bold;
     border-radius: 2px;
     padding: 3px 4px 4px 3px;
@@ -24,6 +36,7 @@ header.masthead {
     font-size: 0.8rem;
     font-family: 'Gothic+A1', sans-serif;
   }
+
   h1 {
     font-size: 2.25rem;
   }
@@ -59,6 +72,7 @@ header.masthead {
     p {
       font-size: 1.2rem;
     }
+
     h1 {
       font-size: 3rem;
     }
