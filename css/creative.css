@@ -10796,6 +10796,15 @@ header.masthead b {
   opacity: 0.8;
 }
 
+header.masthead b1 {
+  color: #fff;
+  background-color: rgba(255, 16, 0, 0.75);
+  font-weight: bold;
+  border-radius: 2px;
+  padding: 2px 3px 3px 2px;
+  opacity: 0.8;
+}
+
 header.masthead p {
   font-size: 0.8rem;
   font-family: 'Gothic+A1', sans-serif;
@@ -11480,4 +11489,3 @@ header.masthead #scroll-down i {
   font-size: 20px;
   padding: 10px 15px !important;
 }
-/*# sourceMappingURL=creative.css.map */
