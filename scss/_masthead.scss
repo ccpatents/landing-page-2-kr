@@ -64,11 +64,21 @@ header.masthead {
     }
   }
 
+  .popup-img {
+    border: 0.2rem double #aaa;
+    border-radius: 0.5rem; 
+  }
+
   @include media-breakpoint-down(sm) {
     padding-top: 6.5rem !important;
 
     p {
       font-size: 1.1rem;
+    }
+
+    .popup-img {
+      border: 0rem;
+      border-radius: 0rem; 
     }
   }
 

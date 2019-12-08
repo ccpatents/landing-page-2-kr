@@ -10828,12 +10828,21 @@ header.masthead #scroll-down i {
   font-size: 18px;
 }
 
+header.masthead .popup-img {
+  border: 0.2rem double #aaa;
+  border-radius: 0.5rem;
+}
+
 @media (max-width: 767.98px) {
   header.masthead {
     padding-top: 6.5rem !important;
   }
   header.masthead p {
     font-size: 1.1rem;
+  }
+  header.masthead .popup-img {
+    border: 0rem;
+    border-radius: 0rem;
   }
 }
 
