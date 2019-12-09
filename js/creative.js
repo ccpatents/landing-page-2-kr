@@ -1,6 +1,7 @@
 let scroll_1000_event = false;
 let share_event = false;
 let video_event = false;
+let enlarge_event = false;
 let store_event = false;
 
 let ss_selected = true; // '왜 검색식을..?'
@@ -133,6 +134,7 @@ let ps_selected = false; // '특허 검색 왜..?'
       gtag('event', 'click_store', {
         'event_category': 'button'
       });
+      store_event = true;
     }
   }
 
@@ -165,5 +167,14 @@ async function WebShare() {
     });
   } catch (error) {
     return;
+  }
+}
+
+function enlarge_gif() {
+  if (enlarge_event === false) {
+    gtag('event', 'enlarge_gif', {
+      'event_category': 'button'
+    });
+    enlarge_event = true;
   }
 }
