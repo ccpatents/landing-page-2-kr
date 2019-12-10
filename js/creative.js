@@ -169,12 +169,3 @@ async function WebShare() {
     return;
   }
 }
-
-function enlarge_gif() {
-  if (enlarge_event === false && agent.indexOf("windows nt 10.0") != -1) {
-    gtag('event', 'enlarge_gif', {
-      'event_category': 'button'
-    });
-    enlarge_event = true;
-  }
-}
