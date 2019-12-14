@@ -10777,16 +10777,6 @@ header.masthead {
   background-size: cover;
 }
 
-header.masthead .gradtext {
-  background: #ffa755;
-  background: -webkit-gradient(linear, left top, right top, from(#f79234), to(#ffdede));
-  background: linear-gradient(to right, #f79234, #ffdede);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  font-weight: 600;
-}
-
 header.masthead b {
   color: #555555;
   background-color: #ffd300;
