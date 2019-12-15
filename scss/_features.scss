@@ -24,7 +24,6 @@
 		font-weight: bold;
 		border-radius: 2px;
 	}
-
 	b2 {
 		color: #ffffff;
 		background-color: rgba(0, 127, 255, 0.75);
@@ -71,9 +70,9 @@
 		.nav-link {
 			float: left;
 			border-radius: 0;
-			margin-bottom: 0;
+			margin-bottom: .3rem;
 			color: #ffffff;
-			font-size: 1.8rem;
+			font-size: 1.5rem;
 			font-weight: 500;
 			position: relative;
 			font-family: 'Gothic+A1', sans-serif;
@@ -101,7 +100,7 @@
 			&.active,
 			&:hover {
 				color: $white;
-				font-size: 2rem;
+				font-size: 1.7rem;
 				// background: #333644;
 				@include transition(.3s);
 				background: transparent;
@@ -139,7 +138,7 @@
 		}
 
 		p {
-			font-size: 1.5rem;
+			font-size: 1.3rem;
 			color: $dark;
 		}
 
@@ -155,6 +154,11 @@
 		@include media-breakpoint-down(sm) {
 			h2 {
 				font-size: 1.8rem;
+			}
+
+			p {
+				font-size: 1.2rem;
+				color: $dark;
 			}
 		}
 	}

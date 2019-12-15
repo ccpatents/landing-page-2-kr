@@ -32,4 +32,10 @@
         font-weight: bold;
         border-radius: 2px;
     }
+
+    @include media-breakpoint-down(sm) {
+        p {
+            font-size: 1.2rem;
+        }
+    }
 }
