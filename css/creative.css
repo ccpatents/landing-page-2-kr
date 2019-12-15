@@ -10861,8 +10861,7 @@ header.masthead #scroll-down i {
 }
 
 header.masthead .popup-img {
-  border: 0.2rem double #aaa;
-  border-radius: 0.5rem;
+  border-radius: 0.1rem;
 }
 
 @media (max-width: 767.98px) {

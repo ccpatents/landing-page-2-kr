@@ -59,8 +59,8 @@ header.masthead {
   }
 
   .popup-img {
-    border: 0.2rem double #aaa;
-    border-radius: 0.5rem; 
+    //border: 0.2rem double #aaa;
+    border-radius: 0.1rem;
   }
 
   @include media-breakpoint-down(sm) {
