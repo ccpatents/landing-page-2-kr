@@ -10622,8 +10622,28 @@ hr.light {
   border-color: #292929;
 }
 
-.page-section {
-  padding: 8rem 0;
+@media (min-width: 768px) {
+  .page-section {
+    padding: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .page-section {
+    padding: 0 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .page-section {
+    padding: 0 1rem;
+  }
+}
+
+@media (min-width: 1500px) {
+  .page-section {
+    padding: 0 10rem;
+  }
 }
 
 .text-wave-h {
@@ -10703,6 +10723,16 @@ hr.light {
   transition: background-color 0.2s ease;
 }
 
+#mainNav a {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 767.98px) {
+  #mainNav a {
+    font-size: 1.2rem;
+  }
+}
+
 #mainNav .navbar-brand {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
@@ -10713,7 +10743,7 @@ hr.light {
   color: #6c757d;
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
-  font-size: 1.0rem;
+  font-size: 1.3rem;
   padding: 0.75rem 0;
 }
 
@@ -10723,6 +10753,12 @@ hr.light {
 
 #mainNav .navbar-nav .nav-item .nav-link.active {
   color: #ff7f00 !important;
+}
+
+@media (max-width: 767.98px) {
+  #mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 1rem;
+  }
 }
 
 @media (min-width: 992px) {
@@ -10767,7 +10803,7 @@ hr.light {
 }
 
 header.masthead {
-  padding-top: 10rem;
+  padding-top: 1rem;
   padding-bottom: calc(10rem - 72px);
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(85, 85, 85, 0.9)), to(rgba(85, 85, 85, 0.3))), url("https://1.bp.blogspot.com/-QscaGcMEG-0/XdEuuCnMCbI/AAAAAAAAHK4/kkQOpzi7A6MBxZdok3bxG2PjK_8VqyqLwCLcBGAsYHQ/s1600/bg-masthead2.jpg");
   background: linear-gradient(to bottom, rgba(85, 85, 85, 0.9) 0%, rgba(85, 85, 85, 0.3) 100%), url("https://1.bp.blogspot.com/-QscaGcMEG-0/XdEuuCnMCbI/AAAAAAAAHK4/kkQOpzi7A6MBxZdok3bxG2PjK_8VqyqLwCLcBGAsYHQ/s1600/bg-masthead2.jpg");
@@ -10796,12 +10832,18 @@ header.masthead b1 {
 }
 
 header.masthead p {
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   font-family: 'Gothic+A1', sans-serif;
+  padding-bottom: .3rem;
+}
+
+header.masthead span {
+  font-size: 1.2rem;
 }
 
 header.masthead h1 {
   font-size: 2.25rem;
+  font-weight: bold;
 }
 
 header.masthead #scroll-down {
@@ -10828,7 +10870,11 @@ header.masthead .popup-img {
     padding-top: 6.5rem !important;
   }
   header.masthead p {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
+    padding-bottom: .3rem;
+  }
+  header.masthead span {
+    font-size: 1.8rem;
   }
   header.masthead .popup-img {
     border: 0rem;
@@ -10844,7 +10890,8 @@ header.masthead .popup-img {
     padding-bottom: 0;
   }
   header.masthead p {
-    font-size: 1.2rem;
+    font-size: 1.35rem;
+    padding-bottom: .3rem;
   }
   header.masthead h1 {
     font-size: 3rem;
@@ -10853,13 +10900,19 @@ header.masthead .popup-img {
 
 @media (min-width: 1200px) {
   header.masthead h1 {
-    font-size: 3.5rem;
+    font-size: 3.7rem;
+  }
+  header.masthead h4 {
+    font-size: 2.1rem;
+  }
+  header.masthead h6 {
+    font-size: 1.5rem;
   }
   header.masthead p {
-    font-size: 1.3rem;
+    font-size: 2.1rem;
   }
   header.masthead span {
-    font-size: 1.2rem;
+    font-size: 2.1rem;
   }
 }
 
@@ -10983,7 +11036,7 @@ header.masthead .popup-img {
   #features .nav-link-wrap {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
-    margin-bottom: -50px;
+    margin-bottom: 0px;
     z-index: 1;
     opacity: .5;
   }
@@ -11009,7 +11062,7 @@ header.masthead .popup-img {
   border-radius: 0;
   margin-bottom: 0;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 500;
   position: relative;
   font-family: 'Gothic+A1', sans-serif;
@@ -11037,7 +11090,7 @@ header.masthead .popup-img {
 
 #features .nav-pills .nav-link.active, #features .nav-pills .nav-link:hover {
   color: #fff;
-  font-size: 20px;
+  font-size: 2rem;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   background: transparent;
@@ -11060,6 +11113,9 @@ header.masthead .popup-img {
 }
 
 @media (max-width: 767.98px) {
+  #features .nav-pills .nav-link.active, #features .nav-pills .nav-link:hover {
+    font-size: 1.2rem;
+  }
   #features .nav-pills .nav-link.active:after, #features .nav-pills .nav-link:hover:after {
     opacity: 0;
   }
@@ -11069,7 +11125,18 @@ header.masthead .popup-img {
   #features .nav-pills .nav-link {
     display: block;
     width: 100%;
+    font-size: 1rem;
   }
+}
+
+#features .tab-content h2 {
+  font-size: 2.5rem;
+  color: #555555;
+}
+
+#features .tab-content p {
+  font-size: 1.5rem;
+  color: #555555;
 }
 
 #features .tab-content .tab-pane {
@@ -11081,9 +11148,20 @@ header.masthead .popup-img {
   font-size: 20px;
 }
 
+@media (max-width: 767.98px) {
+  #features .tab-content h2 {
+    font-size: 1.8rem;
+  }
+}
+
 #blog {
   margin-top: 0.35rem;
   font-family: 'Gothic+A1', sans-serif;
+}
+
+#blog h2 {
+  font-size: 2.5rem;
+  color: #555555;
 }
 
 #blog .post {
@@ -11149,7 +11227,7 @@ header.masthead .popup-img {
 
 #blog .post .text span {
   font-weight: 500;
-  font-size: 13px;
+  font-size: 1.3rem;
   text-transform: uppercase;
   letter-spacing: 2px;
   color: rgba(255, 255, 255, 0.8);
@@ -11165,9 +11243,9 @@ header.masthead .popup-img {
 
 #blog .post .text h3 {
   color: #fff;
-  font-size: 20px;
+  font-size: 1.6rem;
   font-weight: 600;
-  margin-bottom: 0;
+  margin-bottom: .3rem;
 }
 
 #blog .post .text div {
@@ -11300,8 +11378,16 @@ header.masthead .popup-img {
   background-repeat: repeat;
 }
 
-#install h2, #install h3, #install h4 {
-  color: black;
+#install h2,
+#install h3,
+#install h4 {
+  font-size: 2.5rem;
+  color: #555555;
+}
+
+#install p {
+  font-size: 1.5rem;
+  color: #555555;
 }
 
 #install b {
@@ -11316,18 +11402,6 @@ header.masthead .popup-img {
   background-color: rgba(255, 16, 0, 0.75);
   font-weight: bold;
   border-radius: 2px;
-}
-
-@media (max-width: 1199.98px) {
-  #install {
-    font-size: .85rem;
-  }
-}
-
-@media (max-width: 991.98px) {
-  #install {
-    font-size: 1.05rem;
-  }
 }
 
 #contact {

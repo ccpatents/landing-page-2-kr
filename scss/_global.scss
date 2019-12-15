@@ -65,7 +65,22 @@ hr.light {
 
 // Page section padding
 .page-section {
-  padding: 8rem 0;
+
+  @media (min-width: 768px) {
+    padding: 0;
+  }
+
+  @media (min-width: 992px) {
+    padding: 0 3rem;
+  }
+
+  @media (min-width: 1200px) {
+    padding: 0 1rem;
+  }
+
+  @media (min-width: 1500px) {
+    padding: 0 10rem;
+  }
 }
 
 .text-wave-h {

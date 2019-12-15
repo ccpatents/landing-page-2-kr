@@ -5,31 +5,31 @@
     word-break: keep-all;
 
     background-image: url('https://1.bp.blogspot.com/-VHB4iAs11A4/XdKECk5GCkI/AAAAAAAAHMA/Bw5IYcni3fU59IKHI7x6ssnykqTj8y33ACLcBGAsYHQ/s1600/bg.png');
-	background-repeat: repeat;
+    background-repeat: repeat;
 
-    h2, h3, h4 {
-        color: black;
+    h2,
+    h3,
+    h4 {
+        font-size: 2.5rem;
+        color: $dark;
+    }
+
+    p {
+        font-size: 1.5rem;
+        color: $dark;
     }
 
     b {
         color: $dark;
-		background-color: $gold;
-		font-weight: bold;
-		border-radius: 2px;
+        background-color: $gold;
+        font-weight: bold;
+        border-radius: 2px;
     }
 
-    b1{
+    b1 {
         color: #fff;
-		background-color: rgba(255, 16, 0, 0.75);
-		font-weight: bold;
-		border-radius: 2px;
+        background-color: rgba(255, 16, 0, 0.75);
+        font-weight: bold;
+        border-radius: 2px;
     }
-
-    @include media-breakpoint-down(lg) {
-        font-size: .85rem;
-	}
-
-	@include media-breakpoint-down(md) {
-		font-size: 1.05rem;
-	}
 }
