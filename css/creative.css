@@ -10769,6 +10769,12 @@ hr.light {
   color: #ff7f00 !important;
 }
 
+@media (max-width: 767.98px) {
+  #mainNav .navbar-nav .nav-item .download {
+    color: #ff7f00 !important;
+  }
+}
+
 @media (min-width: 992px) {
   #mainNav {
     -webkit-box-shadow: none;

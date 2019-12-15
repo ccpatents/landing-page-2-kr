@@ -42,6 +42,10 @@
         &:hover {
           color: $primary !important;
         }
+
+        @include media-breakpoint-down(sm) {
+          color: $primary !important;
+        }
       }
     }
   }
