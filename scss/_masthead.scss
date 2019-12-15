@@ -11,6 +11,20 @@ header.masthead {
   background-attachment: scroll;
   background-size: cover;
 
+  h2 {
+    font-weight: 800;
+    color: white;
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    font-family: 'Gothic+A1', sans-serif;
+    color: white;
+    padding-bottom: .5rem;
+    margin-bottom: 0;
+  }
+
   b {
     color: $dark;
     background-color: $gold;
@@ -27,12 +41,6 @@ header.masthead {
     border-radius: 2px;
     padding: 1px 1px 2px 1px;
     opacity: 0.8;
-  }
-
-  p {
-    font-size: 1.2rem;
-    font-family: 'Gothic+A1', sans-serif;
-    padding-bottom: .3rem;
   }
 
   span {
@@ -66,13 +74,12 @@ header.masthead {
   @include media-breakpoint-down(sm) {
     padding-top: 6.5rem !important;
 
-    p {
-      font-size: 1.2rem;
-      padding-bottom: .3rem;
+    h2 {
+      font-size: 2rem;
     }
 
-    span {
-      font-size: 1.5rem;
+    p {
+      font-size: 1.3rem;
     }
 
     .popup-img {
@@ -82,22 +89,21 @@ header.masthead {
   }
 
   @include media-breakpoint-up(lg) {
-    height: 110vh;
+    height: 100vh;
     min-height: 40rem;
     padding-top: $navbar-height;
     padding-bottom: 0;
-
-    p {
-      font-size: 1.35rem;
-      padding-bottom: .3rem;
-    }
 
     h1 {
       font-size: 3rem;
     }
 
-    span {
-      //font-size: 0.85rem;
+    h2 {
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 1.3;
     }
   }
 
@@ -106,20 +112,12 @@ header.masthead {
       font-size: 3.3rem;
     }
 
-    h4 {
-      font-size: 1.8rem;
-    }
-
-    h6 {
-      font-size: 1.5rem;
+    h2 {
+      font-size: 2.5rem;
     }
 
     p {
-      font-size: 1.7rem;
-    }
-
-    span {
-      font-size: 1.7rem;
+      font-size: 1.5rem;
     }
   }
 }

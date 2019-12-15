@@ -36,6 +36,13 @@
           font-size: 1rem;
         }
       }
+
+      .download {
+        color: white !important;
+        &:hover {
+          color: $primary !important;
+        }
+      }
     }
   }
   @include media-breakpoint-up(lg) {
