@@ -38,7 +38,7 @@
       }
 
       .download {
-        color: white !important;
+        color: $white !important;
         &:hover {
           color: $primary !important;
         }
@@ -87,6 +87,15 @@
             color: $gray-900;
             &:hover {
               color: $primary;
+            }
+          }
+          .download {
+            color: $gray-900 !important;
+            &:hover {
+              color: $primary !important;
+            }
+            &.active {
+              color: $primary !important;
             }
           }
         }
