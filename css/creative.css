@@ -10884,7 +10884,7 @@ header.masthead .popup-img {
 
 @media (min-width: 992px) {
   header.masthead {
-    height: 100vh;
+    height: 108vh;
     min-height: 40rem;
     padding-top: 72px;
     padding-bottom: 0;
@@ -10900,19 +10900,19 @@ header.masthead .popup-img {
 
 @media (min-width: 1200px) {
   header.masthead h1 {
-    font-size: 3.7rem;
+    font-size: 3.3rem;
   }
   header.masthead h4 {
-    font-size: 2.1rem;
+    font-size: 1.8rem;
   }
   header.masthead h6 {
     font-size: 1.5rem;
   }
   header.masthead p {
-    font-size: 2.1rem;
+    font-size: 1.7rem;
   }
   header.masthead span {
-    font-size: 2.1rem;
+    font-size: 1.7rem;
   }
 }
 
