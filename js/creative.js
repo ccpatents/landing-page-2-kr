@@ -107,14 +107,14 @@ let ps_selected = false; // '특허 검색 왜..?'
     WebShare();
   }
 
-  /*document.getElementById('download-button').onclick = function () {
+  document.getElementById('download-button').onclick = function () {
     if (!semi_download_event) {
       gtag('event', 'semi_download', {
         'event_category': 'button'
       });
     }
     semi_download_event = true;
-  }*/
+  }
 
   document.getElementById('store-button').onclick = function () {
     let gtag_ignore = true;
