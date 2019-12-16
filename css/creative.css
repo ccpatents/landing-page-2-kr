@@ -10868,6 +10868,10 @@ header.masthead b1 {
   opacity: 0.8;
 }
 
+header.masthead b2 {
+  color: #ff7f00;
+}
+
 header.masthead span {
   font-size: 1.2rem;
 }
@@ -10892,6 +10896,13 @@ header.masthead .popup-img {
 @media (min-width: 992px) {
   header.masthead .popup-img {
     height: 100%;
+    opacity: .87;
+  }
+}
+
+@media (min-width: 1200px) {
+  header.masthead .popup-img {
+    height: auto;
     opacity: .87;
   }
 }
