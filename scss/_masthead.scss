@@ -52,6 +52,25 @@ header.masthead {
     font-weight: bold;
   }
 
+  .popup-img {
+    width: 100%;
+    opacity: 1;
+    @include media-breakpoint-up(sm) {
+      width: 100%;
+      opacity: .87;
+    }
+
+    @include media-breakpoint-up(lg) {
+      height: 100%;
+      opacity: .87;
+    }
+
+    @include media-breakpoint-up(xl) {
+      height: auto;
+      opacity: .87;
+    }
+  }
+
   #scroll-down {
     background: none;
     color: #fff;
@@ -66,11 +85,6 @@ header.masthead {
     }
   }
 
-  .popup-img {
-    //border: 0.2rem double #aaa;
-    border-radius: 0.1rem;
-  }
-
   @include media-breakpoint-down(sm) {
     padding-top: 6.5rem !important;
 
@@ -80,11 +94,6 @@ header.masthead {
 
     p {
       font-size: 1.3rem;
-    }
-
-    .popup-img {
-      border: 0rem;
-      border-radius: 0rem; 
     }
   }
 

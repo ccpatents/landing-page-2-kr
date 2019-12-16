@@ -10724,7 +10724,7 @@ hr.light {
 }
 
 #mainNav a {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 @media (max-width: 767.98px) {
@@ -10743,7 +10743,7 @@ hr.light {
   color: #6c757d;
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   padding: 0.75rem 0;
 }
 
@@ -10877,6 +10877,25 @@ header.masthead h1 {
   font-weight: bold;
 }
 
+header.masthead .popup-img {
+  width: 100%;
+  opacity: 1;
+}
+
+@media (min-width: 576px) {
+  header.masthead .popup-img {
+    width: 100%;
+    opacity: .87;
+  }
+}
+
+@media (min-width: 992px) {
+  header.masthead .popup-img {
+    height: 100%;
+    opacity: .87;
+  }
+}
+
 header.masthead #scroll-down {
   background: none;
   color: #fff;
@@ -10891,10 +10910,6 @@ header.masthead #scroll-down i {
   font-size: 18px;
 }
 
-header.masthead .popup-img {
-  border-radius: 0.1rem;
-}
-
 @media (max-width: 767.98px) {
   header.masthead {
     padding-top: 6.5rem !important;
@@ -10904,10 +10919,6 @@ header.masthead .popup-img {
   }
   header.masthead p {
     font-size: 1.3rem;
-  }
-  header.masthead .popup-img {
-    border: 0rem;
-    border-radius: 0rem;
   }
 }
 
@@ -11619,3 +11630,4 @@ header.masthead .popup-img {
   font-size: 20px;
   padding: 10px 15px !important;
 }
+/*# sourceMappingURL=creative.css.map */
