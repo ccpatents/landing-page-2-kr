@@ -10963,77 +10963,28 @@ header.masthead #scroll-down i {
   }
 }
 
-#whyhow {
+#why {
   word-break: keep-all;
-  background-image: url("https://1.bp.blogspot.com/-VHB4iAs11A4/XdKECk5GCkI/AAAAAAAAHMA/Bw5IYcni3fU59IKHI7x6ssnykqTj8y33ACLcBGAsYHQ/s1600/bg.png");
-  background-repeat: repeat;
+  color: #555555;
+  font-family: 'Gothic+A1', sans-serif;
 }
 
-#whyhow b {
+#why b {
   color: #555555;
   background-color: #ffd300;
   font-weight: bold;
   border-radius: 2px;
 }
 
-#whyhow b1 {
-  color: #fff;
-  background-color: rgba(0, 16, 255, 0.75);
-  font-weight: bold;
-  border-radius: 2px;
+#why h2 {
+  color: #000000;
+  font-size: 2rem;
+  font-weight: 900;
 }
 
-#whyhow b2 {
-  color: #fff;
-  background-color: rgba(255, 16, 0, 0.75);
-  font-weight: bold;
-  border-radius: 2px;
-}
-
-#whyhow bo {
-  color: #ff7f00;
-}
-
-#whyhow bb {
-  font-size: 1.5rem;
-}
-
-#whyhow a {
-  color: #555555;
-  border-bottom: 0.2rem solid #ff7f00;
-}
-
-#whyhow a:hover {
-  -webkit-transition: 0.15s;
-  transition: 0.15s;
-  color: #fff;
-  text-decoration: none;
-  font-weight: 600;
-  background-color: #ff7f00;
-  border-radius: 2px;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  #whyhow a:hover {
-    -webkit-transition: none;
-    transition: none;
-  }
-}
-
-#whyhow span:hover {
-  cursor: pointer;
-}
-
-@media (max-width: 1199.98px) {
-  #whyhow {
-    font-size: .85rem;
-  }
-}
-
-@media (max-width: 991.98px) {
-  #whyhow {
-    font-size: 1.05rem;
-  }
+#why p {
+  font-size: 1.1rem;
+  margin-bottom: .1rem;
 }
 
 #features {
@@ -11641,4 +11592,3 @@ header.masthead #scroll-down i {
   font-size: 20px;
   padding: 10px 15px !important;
 }
-/*# sourceMappingURL=creative.css.map */

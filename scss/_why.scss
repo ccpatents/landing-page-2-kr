@@ -1,0 +1,32 @@
+#why{
+	word-break: keep-all;
+	color: $dark;
+	font-family: 'Gothic+A1', sans-serif;
+
+	b {
+		color: $dark;
+		background-color: $gold;
+		font-weight: bold;
+		border-radius: 2px;
+	}
+
+	h2{
+		color: $black;
+		font-size: 2rem;
+		font-weight: 900;
+	}
+
+	p {
+		font-size: 1.1rem;
+		margin-bottom: .1rem;
+	}
+
+
+	@include media-breakpoint-down(lg) {
+
+	}
+
+	@include media-breakpoint-down(md) {
+
+	}
+}
